@@ -1,2 +1,65 @@
-# shinnpoIrisParisBackground
-Paris background by Iris
+<!DOCTYPE html>
+<html>
+  <title> shinnpo: Eiffel Tower
+  </title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.4.0/balloon.min.css">
+    <link rel="stylesheet" href="shinnpo_eiffel_tower_background.css">
+  </head>
+  <body>
+      <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;shinnpo logo</h2>
+      <br>
+      <div class="container bg-info">
+        <h4>&nbsp;</h4>
+        <div class="container">
+          <div style="text-align:center; position: relative; left: 0; top: 0;">
+            <img width="1074" height="626" src="Eiffel_Tower_Background.png" class="game-bg"/>
+            <audio id="boatAudio" src="audio/Un Bateau.mp3"></audio>
+              <button onclick="document.getElementById('boatAudio').play()" class="sun opa"
+              data-balloon="un soleil" data-balloon-pos="left">
+              <img src="http://www.clker.com/cliparts/s/O/R/1/l/i/happy-sun-hi.png" width="200" height="200">
+              </button>
+            <audio id="airplaneAudio" src="audio/Un Avion.mp3"></audio>
+              <button onclick="document.getElementById('airplaneAudio').play()" class="bird opa"
+              data-balloon="un oiseau" data-balloon-pos="down">
+              <img src= "red_bird.png.gif" width="50" height="50">
+              </button>
+            <audio id="airplaneAudio" src="audio/Un Avion.mp3"></audio>
+              <button onclick="document.getElementById('airplaneAudio').play()" class="tower opa"
+              data-balloon="le Tour Eiffel" data-balloon-pos="down">
+              <img src= "cropped_transparent_tower.gif" width="590" height="520">
+              </button>
+            <audio id="carAudio" src="audio/Un Voiture.mp3"></audio>
+              <button onclick="document.getElementById('carAudio').play()" class="squirrel opa"
+              data-balloon="un écureuil" data-balloon-pos="up">
+              <img src="squirrel.png" width="60" height="80">
+              </button>
+            <audio id="subwayAudio" src="audio/Le Metro.mp3"></audio>
+              <button onclick="document.getElementById('subwayAudio').play()" class="dog opa"
+              data-balloon="un chien" data-balloon-pos="up">
+              <img src="dog.png" width="150" height="135">
+              </button>
+            <audio id="samAudio" src=""></audio>
+              <button onclick="document.getElementById('samAudio').play()" class="sam opa"
+               data-balloon-length="medium" data-balloon-visible data-balloon="hover over an object to see the name of it! click it to hear it!" data-balloon-pos="right">
+              <img src="http://image.ibb.co/kSaTVQ/sam.png" width="95" height="150">
+              </button>
+            <button class="map-point" style="top:80%;right:60%">
+              <div class="content">
+                <div class="centered-y">
+                  <h2>Let's Practice Flash Cards!</h2>
+                  <p><a href=""></a></p>
+                </div>
+              </div>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        <h4>&nbsp;</h4>
+      </div>
+  </body>
+</html>
